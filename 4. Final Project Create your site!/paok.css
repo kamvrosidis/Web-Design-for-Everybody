@@ -1,0 +1,60 @@
+.offpage {
+position: absolute;
+left: -1000px;
+}
+
+.offpage:focus {
+position: relative;
+left: 20px;
+}
+nav {
+	background-color: #b4b4b4;
+	display: inline-block; 
+	width: 100%;
+}
+
+nav li {
+	list-style-type: none;
+    margin: 45px 70px 45px 30px;
+    border: 2px solid black;
+}
+nav a {
+   text-decoration: none;
+}
+p {
+	line-height: 140%;
+}
+.stiles {
+	 display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+li:hover {
+	display: inline-block;
+    background-color: lightblue;
+}
+li:nth-child(odd) {
+	display: inline-block;
+    border: 2px solid black;
+
+}
+li:nth-child(even) {
+	display: inline-block;
+    border: 2px solid gray;
+}
+img {
+	border: 2px solid black;
+    border-radius: 100px;
+    padding: 10px;
+}
+.allagi{
+	display: inline-block;
+}
+.stiles2{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+
